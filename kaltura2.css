@@ -1,0 +1,13 @@
+/* clear out the font based icon */
+.largePlayBtn.icon-play:before {
+    content: "";
+}
+/* replace play button with jack-o-lantern: */
+.mwPlayerContainer .largePlayBtn, .mwPlayerContainer .largePlayBtn:hover{
+    background-image: url('https://png.pngitem.com/pimgs/s/180-1800137_value-creative-icon-smaller-transparent-creative-icon-png.png');
+    background-size: 93px 100px;
+    width:93px;
+    height:100px;
+    padding: 0px;
+    margin:-50px;
+}
